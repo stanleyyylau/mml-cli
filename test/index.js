@@ -1,0 +1,1 @@
+const fail = require('../index.js')
