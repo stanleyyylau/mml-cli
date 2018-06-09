@@ -1,0 +1,28 @@
+{
+  "name": "mmlib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/gulp browser-sync"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "braces": "^2.3.0",
+    "browser-sync": "^2.18.13",
+    "chalk": "^2.4.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "glob-base": "^0.3.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "parse-glob": "^3.0.4",
+    "regex-cache": "^0.4.4"
+  },
+  "devDependencies": {
+    "gulp-ejs": "^3.1.0"
+  }
+}

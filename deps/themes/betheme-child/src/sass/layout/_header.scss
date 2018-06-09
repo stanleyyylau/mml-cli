@@ -1,0 +1,141 @@
+a:hover{
+    text-decoration: none;
+}
+#Top_bar .menu > li{
+    margin-top: 20px;
+}
+#Top_bar.is-sticky .menu > li{
+    margin-top: 0px;
+}
+#Top_bar{
+            background-color: transparent!important;
+        }
+#Top_bar .menu > li > a span:not(.description){
+    text-transform: capitalize;
+    font-weight: 400;
+    /*color: #1f1f26;*/
+    /*color: #fff!important;*/
+}
+
+#Top_bar .menu > li:not(.current_page_item) > a span{
+     color: #fff;
+}
+
+/*#Top_bar .menu > li.current_page_item span{
+    color: #333;
+    @include font-ms1;
+}*/
+#Top_bar .menu li ul li a span{
+    font-size: 12px;
+    @include font-ms1;
+}
+#Top_bar .menu li ul{
+    background-color: #fff;
+    margin-top: -10px;
+}
+#Top_bar #logo img{
+    max-width: none!important;
+    max-height: none!important;
+}
+#back_to_top{
+    border: 2px solid;
+    line-height: 36px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before{
+    margin-left: .3em;
+}
+
+@media(max-width:1237px) and (min-width: 769px){
+    #Top_bar #logo img{
+       /* margin-top: -32px;
+        width: 40px;*/
+    }
+}
+#Top_bar.is-sticky{
+    opacity: 1;
+    background-color: #000!important;
+}
+#Top_bar.is-sticky #logo img.logo-sticky{
+    max-height: 48px!important;
+    margin-top: -14px;
+}
+
+#Header_wrapper{
+        height: 540px;
+        background-position: center center;
+        background-image: url('/wp-content/uploads/2018/05/common-banner-bg.jpg');
+    }
+.page-banner{
+    .banner-title{
+        padding-top: 160px;
+        .page-banner-title{
+            @include font-ms7;
+            font-size: 42px;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 0px;
+            text-transform: capitalize;
+        }
+    }
+
+    .description {
+        span{
+            font-size: 14px;
+            @include font-pel;
+            margin-top: 20px;
+            color: #fff;
+            display: block;
+        }
+    }
+}
+
+#menu-item-32{
+    text-align: center!important;
+    a{
+       span{
+         background-color: #f5c51d;
+
+       }
+    }
+}
+
+.breaknav{
+    li{
+        display: inline-block;
+        color:#fff;
+        @include font-ms1;
+        a{
+            font-size: 16px;
+            color: #999999;
+            @include font-ms1;
+        }
+        
+    }
+}
+
+@media(max-width: 580px){
+    .page-banner{
+        .banner-title{
+            padding-top: 130px;
+            .page-banner-title{
+                font-size: 42px;
+            }
+
+        }
+    }
+}
+
+#Header #Top_bar .container #menu #menu-item-32 span {
+      color: #333;
+      padding:0px 37px!important;
+      border-radius: 50px;
+  }
+
+#Top_bar .menu > li > a span:not(.description){
+    line-height: 40px!important;
+    color: #fff;
+    @include font-ms1;
+}
+

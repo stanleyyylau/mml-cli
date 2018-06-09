@@ -1,0 +1,105 @@
+// COLORS
+$color-main-content: #666666;
+$color-heading: #000000;
+$color-decoration: #4725f7;
+$color-product-cat: #999999;
+$color-header-bg: #1a1a1a;
+$color-white: #ffffff;
+$color-breadcrumbs: #999999;
+$color-black: #000000;
+
+//FINO-colors
+$color-main:#b99166;
+$color-main-hover:#78542e;
+$color-header:#a07c55;
+$color-footer:#cebeae;
+$color-footer-bg:#160d06;
+$color-copyright:#5d534e;
+$color-grey:#999999;
+$color-btn-white:#f3f2f0;
+
+
+//FONT
+$font-heading: "p22-underground",sans-serif;
+$font-content: "open-sans",sans-serif;
+$font-menu: $font-heading;
+$font-header-menu: $font-heading;
+$font-footer-menu: $font-content;
+
+$font-size-footer-menu: rem(16px);
+$font-size-content: rem(14px);
+$font-size-section-heading: rem(36px);
+$font-size-section-secondary: rem(18px);
+$font-size-section-feature-img: rem(30px);
+$font-size-heading: rem(20px);
+$font-size-product-series-title: rem(42px);
+$font-size-product-series-des: rem(24px);
+$font-size-product-title: rem(24px);
+$font-size-header-menu: $font-size-footer-menu;
+$font-size-content-in-banner: $font-size-footer-menu;
+$font-size-link: $font-size-content;
+
+$font-weight-heading-book: 400;
+$font-weight-heading-heavy: 900;
+
+
+/*font*/
+@mixin font-merri{
+	font-family: "merriweather",serif;
+	font-style: normal;
+	font-weight: 800!important;
+}
+@mixin font-pel{
+	font-family: "pragmatica-extended",sans-serif;
+	font-style: normal;
+	font-weight: 300!important;
+}
+@mixin font-pem{
+	font-family: "pragmatica-extended",sans-serif;
+	font-style: normal;
+	font-weight: 500!important;
+}
+
+@mixin font-ms1{
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+@mixin font-ms3{
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+@mixin font-ms5{
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+@mixin font-ms7{
+	font-family: "museo-sans",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+// Experiment, compare em and REM difference
+$gutter-section-to-section: rem(80px);
+$gutter-title-to-content: rem(60px);
+$gutter-industry-item: rem(10px);
+$gutter-content-to-btn: rem(40px);
+$gutter-insight-blog: rem(46px);
+$gutter-btn: em(16px, 14px) em(20px, 14px);
+$border-radius-btn-: em(25px, 14px);
+$size-why-choose-icon-Box: rem(68px);
+
+
+// Partnership with different box shadow color
+$shadow-blog-and--certificate: 9px 14px 27.84px 4.16px rgba(69, 88, 136, 0.1);
+$shadow-home-resource: 9px 14px 33.06px 4.94px rgba(92, 22, 116, 0.17);
+$shadow-product-item: 4px 7px 8.7px 1.3px rgba(69, 88, 136, 0.1);
+$shadow-partnership: 9px 14px 33.06px 4.94px rgba(69, 88, 136, 0.10);

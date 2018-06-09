@@ -1,0 +1,100 @@
+#Footer{
+	background-color: #222222!important;
+	.footer_copy{
+		border: none!important;
+		#back_to_top{
+			bottom: 100px!important;
+		}
+		.copyright{
+			float: right!important;
+			margin-right: -58px;
+		}
+		@media(max-width:780px){
+			.copyright{
+				float: left!important;
+				margin-right: 0px;
+			}
+			#back_to_top{
+				bottom: 0px!important;
+			}
+		}
+	}
+}
+
+.footer-wrap{
+	padding:50px 10px 120px 10px;
+	.footer-content{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.footer-block{
+			width: 22%;
+			.footer-title{
+				font-size: 14px;
+				color: #ebebeb;
+				margin-bottom: 0px;
+				@include font-ms5;
+				text-align: right;
+				text-transform: uppercase;
+			}
+			&.footer-logo{
+				width: 40%;
+			}
+		}
+		 
+	}
+}
+
+.footer-cta{
+	height: 600px;
+	background-image: url('/wp-content/uploads/2018/05/common-cta-bg.jpg');
+	background-position: center center;
+	.container{
+
+		.cta-title{
+			max-width: 380px;
+			text-align: center;
+			margin-left: 90px;
+			padding-top: 120px;
+			.title{
+				font-size:42px;
+				color: #222;
+				line-height: 1.2;
+				@include font-ms7;
+			}
+			.cta-btn{
+				margin-top: 15px;
+			}
+		}
+	}
+}
+
+.btn{
+	font-size: 16px;
+	color: #fff!important;
+	padding:12px 30px;
+	border-radius: 50px;
+	background-color: #222;
+	display: inline-block;
+	@include font-ms1;
+}
+
+@media(max-width:1150px ){
+	.footer-cta{
+		background-position: left;
+		.cta-title{
+			margin-left: 430px!important;
+		}
+	}
+}
+@media(max-width:780px){
+	.footer-cta{
+		display: none;
+
+	}
+	.footer-wrap{
+		display: none;
+	}
+}
+
+

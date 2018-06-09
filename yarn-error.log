@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/0.27.5_1/libexec/bin/yarn.js add shelljs
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.27.5
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "mml-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha"
+    },
+    "author": "Stanley Lau <stanley@mmldigi.com>",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "mocha": "^5.2.0",
+      "shelljs": "^0.8.2"
+    },
+    "repository": "https://github.com/stanleyyylau/mml-cli.git"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/stanley/Desktop/mml-cli/node_modules/mocha'

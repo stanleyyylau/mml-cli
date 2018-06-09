@@ -1,0 +1,256 @@
+#Content {
+  padding-top: 0;
+}
+
+// Header Menu
+#Top_bar {
+  background-color: $color-header-bg!important;
+
+  @include mappy-bp(max-width 1240px) {
+    padding: 0 20px;
+  }
+}
+
+#Subheader {
+  background-color: $color-white;
+
+  &:after {
+    display: none;
+  }
+
+  li {
+    color: $color-black!important;
+    font-family: $font-heading;
+    text-transform: uppercase;
+
+    span, a {
+      font-family: $font-heading;
+      text-transform: uppercase;
+      color: $color-breadcrumbs;
+    }
+  }
+  
+  @include mappy-bp(max-width 500px) {
+    display: none;
+  }
+
+  @include mappy-bp(max-width 1240px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+#Content {
+
+  section {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: $gutter-section-to-section / 3rem * 1rem;
+
+    // Subheader doesnt display on mobile, so first section need to have to margin-top
+    &:first-child {
+      margin-top: $gutter-title-to-content / 2rem * 1rem;
+
+      // Remove margin-top when subheader is visible, as subheader will create gutter for us
+      @include mappy-bp(500px){
+        margin-top: 0;
+      }
+    }
+
+    // section will not no padding to desktop
+    @include mappy-bp(1240px) {
+      padding: 0;
+    }
+
+    // gutter bewteen sections will increase on screen that's 500px+
+    @include mappy-bp(500px) {
+      margin-bottom: $gutter-section-to-section;
+    }
+
+  }
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+#Footer {
+  .m-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @include mappy-bp(max-width 1220px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .m-footer-wrap {
+    padding-top: rem(60px);
+    padding-bottom: 100px;
+    background-color: #262626;
+
+    @include mappy-bp(max-width 720px) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+    
+    .m-container {
+      display: grid;
+      grid-template-columns: 2/12*100% 3/12*100% 3/12*100% 4/12*100%;
+
+      @include mappy-bp(max-width 720px) {
+        display: none;
+      }
+    }
+
+    .footer-title {
+      font-size: rem(20px);
+      font-weight: $font-weight-heading-heavy;
+    }
+    ul {
+      li a {
+        color: white;
+        text-decoration: none;
+        font-size: $font-size-footer-menu;
+      }
+
+      li {
+        margin-bottom: 8px;
+      }
+    }
+
+    .stay-in-touch {
+      .footer-subs-wrap {
+        display: flex;
+        align-items: center;
+      }
+
+      .wpcf7-form-control-wrap {
+        margin-bottom: 0;
+        padding-right: 10px;
+
+        input {
+          background-color: #424242;
+          border-color: transparent;
+          color: white;
+
+          &:focus {
+            background-color: #424242!important;
+          }
+        }
+      }
+
+      .wpcf7-submit {
+        font-size: 14px;
+        height: 41px;
+        margin-right: 0;
+        background-color: white;
+        color: black;
+        border-radius: 0;
+      }
+
+      .notice-wrap {
+        color: white;
+
+        p {
+          color: white;
+          margin-bottom: 0;
+          margin-top: 20px;
+          font-size: 12px;
+        }
+
+        ul li {
+          margin-bottom: 0;
+          font-size: 12px;
+          line-height: 1.5;
+          display: flex;
+          align-items: center;
+
+          .icon-wrap {
+            background-color: white;
+            width: 10px;
+            height: 10px;
+            display: block;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin-right: 5px;
+
+            i {
+              font-size: 10px;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+  .m-copy-right {
+    background-color: #1a1a1a;
+    padding: 25px 0;
+    
+    .m-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      @include mappy-bp(max-width 700px) {
+        display: block;
+        text-align: center;
+        .social-wrap {
+          justify-content: center;
+          margin-top: 10px;
+          padding-right: 0;
+        }
+      }
+    }
+
+    .copy-right {
+      color: white;
+      font-size: 12px;
+    }
+
+    .social-wrap {
+      padding-right: 50px;
+      display: flex;
+
+      .social-item {
+        width: 35px;
+        height: 35px;
+        background-color: white;
+        margin-right: 15px;
+        border-radius: 50%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 18px;
+
+        i {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: black;
+        }
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+input {
+  outline: none;
+}
+
+body #Top_bar .menu > li ul {
+  background-color: black;
+}
+
+

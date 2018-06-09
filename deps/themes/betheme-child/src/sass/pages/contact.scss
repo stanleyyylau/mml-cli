@@ -1,0 +1,191 @@
+.page-id-20{
+  #Header_wrapper{
+    background-image: url('');
+    .page-banner{
+      display: none;
+    }
+    height: 90px;
+    background-color: #333;
+  }
+}
+
+.contact-us{
+  padding-top: 80px;
+  .page-section{
+    .container{
+      padding:120px 10px;
+      .section-title{
+        text-align: center;
+        .title{
+          font-size: 40px;
+          line-height: 1.2;
+          color: #1f1f26;
+          font-weight: 800;
+          margin-bottom: 0px;
+          max-width: 740px;
+          margin: 0 auto;
+          @include font-merri;
+
+        }
+        .line{
+          width: 80px;
+          border-top: 1px solid #1f1f26;
+          margin: 25px auto;
+        }
+        p{
+          font-size: 14px;
+          color: #777;
+          max-width:600px;
+          margin:  0 auto; 
+          margin-bottom: 0px;
+          @include font-pel;
+
+        }
+      }
+    }
+  }
+
+  .contact-details{
+    background-color: #fafafa;
+    .container{
+      padding:120px 10px;
+      display: flex;
+      justify-content: space-between;
+      .contact-left{
+        text-align: center;
+        width: 40%;
+        max-width:400px;
+        margin-right: 100px;
+        h4{
+          font-size: 20px;
+          color: #1f1f26;
+          margin-bottom: 0px;
+          margin-top: 50px;
+          @include font-merri;
+
+        }
+        ul{
+          margin-top: 25px;
+          li{
+            font-size:  14px;
+            color: #777;
+            @include font-pel;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span{
+              margin-right: 10px;
+              margin-top: 6px;
+            }
+          }
+        }
+
+        p{
+          margin-top: 30px;
+          font-size: 14px;
+          color: #777;
+          @include font-pel;
+          b{
+            color: #1f1f26;
+          }
+        }
+      }
+      .contact-form{
+        width: 58%;
+        max-width: 680px;
+        .section-title{
+          margin-bottom: 60px;
+          .title{
+            font-size: 40px;
+            line-height: 1.2;
+            font-weight: 800;
+            color: #1f1f26;
+            margin-bottom: 0px;
+            @include font-merri;
+
+          }
+        }
+        #wpcf7-f5-o1{
+          p{
+            margin-bottom: 0px;
+            margin-bottom: 30px;
+            input{
+              height: 60px;
+              padding-left: 20px;
+              border-radius: 5px;
+              box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.05);
+              @include font-pel;
+
+              &.wpcf7-form-control.wpcf7-submit{
+                width: 100%;
+                color: #fff;
+                font-size: 16px;
+                background-color: #1f1f26!important;
+                text-transform: uppercase;
+                &:focus{
+                  outline:none!important;
+                }
+              }
+            }
+            textarea{
+              padding-left: 20px;
+              border-radius: 5px;
+              box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.05);
+              height: 206px;
+              resize:none;
+              @include font-pel;
+
+            }
+
+
+          }
+
+        }
+        
+      }
+    }
+  }
+
+@media(max-width: 980px){
+  .contact-details{
+    .container{
+      .contact-left{
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+@media(max-width: 780px){
+  .contact-details{
+    .container{
+      flex-wrap: wrap;
+      .contact-left{
+        width: 100%;
+        max-width: none;
+        margin-right: 0px;
+      }
+      .contact-form{
+        width: 90%;
+        margin: 0 auto;
+        max-width: none;
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media(max-width: 480px){
+  .page-section,.contact-details{
+    .container{
+      padding:60px 0px;
+      .section-title{
+        .title{
+          font-size: 32px!important;
+        }
+      }
+    }
+  }
+}
+
+}

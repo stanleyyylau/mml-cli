@@ -1,0 +1,9 @@
+// $ refers to html.mml-lib
+
+*,
+*::after,
+*::before {
+    //margin: 0; Do not enable this on betheme
+    //padding: 0;  Do not enable this on betheme
+    box-sizing: border-box;
+}

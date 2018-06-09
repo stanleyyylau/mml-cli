@@ -1,0 +1,114 @@
+.page-id-14{
+  .page-banner{
+    background-image: url('/wp-content/uploads/2018/05/banner-6.png');
+  }
+}
+
+.design{
+  .page-section{
+      .container{
+        padding: 120px 10px;
+        display: flex;
+        justify-content: space-between;
+        .img-wrap{
+          width: 52%;
+          max-width: 600px;
+          img{
+            width: 100%;
+          }
+        }
+        .text-wrap{
+          flex:1;
+          display: flex;
+          justify-content: center;
+          padding-left: 80px;
+          background-color: #fafafa;
+          flex-direction: column;
+          .section-title{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            margin-bottom: 50px;
+            .title{
+              margin-bottom: 0px;
+              margin-left:12px;
+              font-size:  40px;
+              line-height: 1.2;
+              color: #1f1f26;
+              @include font-merri;
+            }
+          }
+          .text{
+            max-width: 480px;
+            width: 100%;
+            p{
+              margin-bottom: 0px;
+              margin-bottom: 25px;
+              font-size: 14px;
+              color: #777;
+              @include font-pel;
+
+            }
+          }
+        }
+      }
+  }
+
+  .consultation,.drawings{
+      .container{
+        .text-wrap{
+          order:2;
+        }
+        .img-wrap{
+          order:1;
+        }
+      }
+  }
+
+  .discovery,.confirmation{
+    background-color: #fafafa;
+    .container{
+      padding:60px 10px;
+      .text-wrap{
+        padding-left: 0px;
+      }
+    }
+  }
+
+  @media(max-width: 780px){
+    .page-section{
+      .container{
+        flex-wrap: wrap;
+        .img-wrap{
+          width: 100%;
+          order:2;
+          padding:20px;
+        }
+        .text-wrap{
+          width: 100%;
+          order:1;
+          padding-left: 0px;
+          padding:20px;
+        }
+      }
+    }
+  }
+
+  @media(max-width: 480px){
+    .page-section{
+      .container{
+        padding:60px 0px;
+        .text-wrap{
+          .section-title{
+            img{
+              width: 15%;
+            }
+            .title{
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

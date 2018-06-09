@@ -1,0 +1,619 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Cool Timeline\n"
+"POT-Creation-Date: 2016-06-22 10:56+0530\n"
+"PO-Revision-Date: 2016-06-22 10:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cooltimeline.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin-page-class/admin-page-class.php:404
+msgid "Allowed Files"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:641
+#: admin-page-class/admin-page-class.php:643
+msgid "Insert into Post"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:641
+msgid "Use this File"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:643
+msgid "Use this Image"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:676
+#: admin-page-class/admin-page-class.php:775
+msgid "Save Changes"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:689
+msgid "Settings saved."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1154
+msgid "Delete this image"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1154
+#: admin-page-class/admin-page-class.php:1853
+msgid "Delete"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1249
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1454
+#: admin-page-class/admin-page-class.php:1499
+#: meta-box-class/my-meta-box-class.php:420
+#: meta-box-class/my-meta-box-class.php:459
+msgid "Remove"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1466
+#: meta-box-class/my-meta-box-class.php:432
+msgid "Add"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1640
+msgid "Select Files"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1849
+msgid "Uploaded files"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1860
+msgid "Upload new files"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1866
+msgid "Add more files"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1886
+#: admin-page-class/admin-page-class.php:1919
+msgid "Delete Image"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:1891
+#: admin-page-class/admin-page-class.php:1924
+msgid "Upload Image"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:2075
+#: meta-box-class/my-meta-box-class.php:789
+msgid "Select a color"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3331
+msgid "Export"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3332
+msgid ""
+"To export saved settings click the Export button bellow and you will get the "
+"export Code in the box bellow, which you can later use to import."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3334
+msgid "Export Code"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3336
+msgid "Get Export"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3341
+#: admin-page-class/admin-page-class.php:3346
+msgid "Import"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3342
+msgid ""
+"To Import saved settings paste the Export output in to the Import Code box "
+"bellow and click Import."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3344
+msgid "Import Code"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3371
+msgid "error in ajax request! (1)"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3381
+msgid "error in ajax request! (2)"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3402
+msgid "error in ajax request! (3)"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3414
+msgid "Setting imported, make sure you "
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3414
+msgid "Refresh this page"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3416
+msgid "Could not import settings! (4)"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3437
+msgid "You do not have sufficient permissions to edit templates for this site."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3440
+msgid "Error Downloading file."
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3462
+#: admin-page-class/admin-page-class.php:3465
+msgid "Download Export"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3532
+msgid "Not Valid "
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3550
+msgid "Errors in saving changes"
+msgstr ""
+
+#: admin-page-class/admin-page-class.php:3575
+msgid "Unkown Error"
+msgstr ""
+
+#: cooltimeline.php:74
+msgid "Timeline story settings"
+msgstr ""
+
+#: cooltimeline.php:91
+msgid "Default"
+msgstr ""
+
+#: cooltimeline.php:91
+msgid "Video"
+msgstr ""
+
+#: cooltimeline.php:91
+msgid "Slideshow"
+msgstr ""
+
+#: cooltimeline.php:91
+msgid "Story Format"
+msgstr ""
+
+#: cooltimeline.php:98
+msgid "Slide"
+msgstr ""
+
+#: cooltimeline.php:104
+msgid "Add slideshow slides"
+msgstr ""
+
+#: cooltimeline.php:109
+msgid ""
+"Add Youtube video url e.g <small>https://www.youtube.com/watch?"
+"v=PLHo6uyICVk</small>"
+msgstr ""
+
+#: cooltimeline.php:111
+msgid "Full"
+msgstr ""
+
+#: cooltimeline.php:111
+msgid "Small"
+msgstr ""
+
+#: cooltimeline.php:111
+msgid "Story image size"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: cooltimeline.php:143
+msgid "Cool Timeline"
+msgstr ""
+
+#: cooltimeline.php:162 includes/cool_timeline_template.php:27
+msgid "Read More"
+msgstr ""
+
+#: cooltimeline.php:167
+msgid "General Settings"
+msgstr ""
+
+#: cooltimeline.php:168 cooltimeline.php:248
+msgid "Style Settings"
+msgstr ""
+
+#: cooltimeline.php:169 cooltimeline.php:231
+msgid "Typography Settings"
+msgstr ""
+
+#: cooltimeline.php:170 cooltimeline.php:287
+msgid "Stories Settings"
+msgstr ""
+
+#: cooltimeline.php:171
+msgid "Date Settings"
+msgstr ""
+
+#: cooltimeline.php:172
+msgid "Extra Settings"
+msgstr ""
+
+#: cooltimeline.php:190
+msgid "Title "
+msgstr ""
+
+#: cooltimeline.php:198
+msgid "Title Heading Tag "
+msgstr ""
+
+#: cooltimeline.php:200
+msgid "Number of post to display "
+msgstr ""
+
+#: cooltimeline.php:201
+msgid "Content Length "
+msgstr ""
+
+#: cooltimeline.php:204
+msgid "Profile Image"
+msgstr ""
+
+#: cooltimeline.php:207
+msgid "Stories Description?"
+msgstr ""
+
+#: cooltimeline.php:210
+msgid "Display read more ?"
+msgstr ""
+
+#: cooltimeline.php:213
+msgid "Stories Order ?"
+msgstr ""
+
+#: cooltimeline.php:218
+msgid "Title Alignment ?"
+msgstr ""
+
+#: cooltimeline.php:232
+msgid "Main Title"
+msgstr ""
+
+#: cooltimeline.php:233
+msgid "Story Title"
+msgstr ""
+
+#: cooltimeline.php:236
+msgid "Story Title Style ?"
+msgstr ""
+
+#: cooltimeline.php:238
+msgid "Post Content"
+msgstr ""
+
+#: cooltimeline.php:254
+msgid "Background Color"
+msgstr ""
+
+#: cooltimeline.php:255
+msgid "Background Image"
+msgstr ""
+
+#: cooltimeline.php:262
+msgid "Container Background "
+msgstr ""
+
+#: cooltimeline.php:269
+msgid "Post Background Color"
+msgstr ""
+
+#: cooltimeline.php:273
+msgid "Circle Color"
+msgstr ""
+
+#: cooltimeline.php:275
+msgid "Line Color"
+msgstr ""
+
+#: cooltimeline.php:277
+msgid "First Post"
+msgstr ""
+
+#: cooltimeline.php:278
+msgid "Second Post"
+msgstr ""
+
+#: cooltimeline.php:297
+msgid "Animation Effects "
+msgstr ""
+
+#: cooltimeline.php:307
+msgid "Stories Images?"
+msgstr ""
+
+#: cooltimeline.php:310
+msgid "Stories slideshow ?"
+msgstr ""
+
+#: cooltimeline.php:313
+msgid "Slider animation ?"
+msgstr ""
+
+#: cooltimeline.php:314
+msgid "Slide Show Speed ?"
+msgstr ""
+
+#: cooltimeline.php:314
+msgid "Enter the speed in milliseconds 1000 = 1 second"
+msgstr ""
+
+#: cooltimeline.php:323
+msgid "Stories Date Settings"
+msgstr ""
+
+#: cooltimeline.php:325
+msgid "Disable Stoires Months ?"
+msgstr ""
+
+#: cooltimeline.php:330
+msgid "Stories Date Formats ?"
+msgstr ""
+
+#: cooltimeline.php:331
+msgid "Custom date formats"
+msgstr ""
+
+#: cooltimeline.php:331
+msgid "Date formats   e.g  D,M,Y"
+msgstr ""
+
+#: cooltimeline.php:349
+msgid "No Timeline Posts content"
+msgstr ""
+
+#: cooltimeline.php:357
+msgid "My help tab title"
+msgstr ""
+
+#: cooltimeline.php:358
+msgid "This is my Help Tab content"
+msgstr ""
+
+#: cooltimeline.php:362
+msgid "My 2nd help tab title"
+msgstr ""
+
+#: cooltimeline.php:368
+msgid "This is my 2nd Help Tab content from a callback function"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:23
+msgctxt "Post Type General Name"
+msgid "Timeline Stories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:24
+msgctxt "Post Type Singular Name"
+msgid "Timeline Stories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:25
+#: includes/cool_timeline_posttype.php:26
+msgid "Timeline Stories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:27
+#: includes/cool_timeline_posttype.php:74
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:28
+msgid "All Stories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:29
+msgid "Add New Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:30
+msgid "Add New"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:31
+msgid "New Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:32
+msgid "Edit Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:33
+msgid "Update Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:34
+msgid "View Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:35
+msgid "Search Story"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:36
+msgid "Not found"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:37
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:40
+msgid "cool-timeline"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:41
+msgid "Timeline Post Type Description"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:69
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:70
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:71
+msgid "Categories"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:72
+msgid "All Items"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:73
+msgid "Parent Item"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:75
+msgid "New Item Name"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:76
+msgid "Add New Item"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:77
+msgid "Edit Item"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:78
+msgid "Update Item"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:79
+msgid "View Item"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:80
+msgid "Separate items with commas"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:81
+msgid "Add or remove items"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:82
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:83
+msgid "Popular Items"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:84
+msgid "Search Items"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:85
+msgid "Not Found"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:86
+msgid "No items"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:87
+msgid "Items list"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:88
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:107
+msgid "Stories Format"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:108
+msgctxt "column name"
+msgid "Title"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:109
+msgid "Year"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:110
+msgctxt "column name"
+msgid "Date"
+msgstr ""
+
+#: includes/cool_timeline_posttype.php:112
+msgctxt "column name"
+msgid "Content"
+msgstr ""
+
+#: includes/cool_timeline_template.php:165
+msgid "d/M/Y"
+msgstr ""
+
+#: includes/cool_timeline_template.php:426
+#, php-format
+msgid "<%s class=\"timeline-main-title center-block\">%s</%s>"
+msgstr ""
+
+#: includes/cool_timeline_template.php:428
+msgid "timeline pro test"
+msgstr ""
+
+#: meta-box-class/my-meta-box-class.php:877
+msgid "Select ..."
+msgstr ""
+
+#: meta-box-class/my-meta-box-class.php:1824
+#: meta-box-class/my-meta-box-class.php:1832
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.cooltimeline.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Cool Timeline is a responsive wordpress plugin that allows you to create "
+"beautiful verticle storyline. You simply create posts, set images and date "
+"then Cool Timeline will automatically populate these posts in chronological "
+"order, based on the year and date"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Narinder singh"
+msgstr ""

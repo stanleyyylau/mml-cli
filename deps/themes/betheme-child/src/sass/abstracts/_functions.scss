@@ -1,0 +1,9 @@
+@function rem($px){//$px为需要转换的字号
+  @return $px / 16px * 1rem;
+}
+
+@function em($pixels, $context:16px) {
+
+  // default context to 16px
+  @return ($pixels / $context) * 1em;
+}

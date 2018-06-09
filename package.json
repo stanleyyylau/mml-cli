@@ -5,10 +5,15 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "Stanley Lau <stanley@mmldigi.com>",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mocha": "^5.2.0"
-  }
+    "commander": "^2.15.1",
+    "generate-password": "^1.4.0",
+    "mocha": "^5.2.0",
+    "prompt": "^1.0.0",
+    "shelljs": "^0.8.2"
+  },
+  "repository": "https://github.com/stanleyyylau/mml-cli.git"
 }

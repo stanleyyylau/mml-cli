@@ -1,0 +1,60 @@
+// If you using betheme, use this reset
+// Also, disable what's based
+
+@include mappy-bp(1240px) {
+  .section_wrapper, .container {
+    max-width: 1200px;
+  }
+}
+
+.section_wrapper, .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+body:not(.template-slider) #Header {
+  min-height: auto;
+}
+
+#Wrapper, #Content {
+  background-color: $color-white;
+}
+
+#Top_bar.is-sticky {
+  background-color: #fff!important;
+}
+
+@include mappy-bp(1000px) {
+  #Header #Top_bar .container {
+    .one.column {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #menu {
+      li:last-child {
+        span {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  #Subheader {
+    padding: 40px 0;
+
+    .container {
+      .column.one {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .breadcrumbs {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+

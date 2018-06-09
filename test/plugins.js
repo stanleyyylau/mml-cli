@@ -1,0 +1,1 @@
+const plugins = require('../module/plugins.js')
