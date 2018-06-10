@@ -1,16 +1,14 @@
-const path = require('path')
-const fs = require('fs')
-const generator = require('generate-password');
+var path = require('path')
+var fs = require('fs')
+var generator = require('generate-password');
 
 var util = {};
 
 util.generateRanomPasword = function () {
-
-	const password = generator.generate({
+	var password = generator.generate({
 	    length: 16,
 	    numbers: true
 	});
-	 
 	return password;
 }
 
@@ -23,8 +21,8 @@ util.writeObjToDb = function (obj) {
 }
 
 util.checkExistOfWpConfigFile = function () {
-	const currentWorkingDir = process.cwd()
-	const wpConfigPath = path.join(currentWorkingDir, 'wp-config.php')
+	var currentWorkingDir = process.cwd()
+	var wpConfigPath = path.join(currentWorkingDir, 'wp-config.php')
 
 	if (fs.existsSync(wpConfigPath)) {
 	    return true
@@ -34,8 +32,18 @@ util.checkExistOfWpConfigFile = function () {
 }
 
 util.getThemePath = function() {
-	const currentWorkingDir = process.cwd()
+	var currentWorkingDir = process.cwd()
 	return path.join(currentWorkingDir, 'wp-content', 'themes')
+}
+
+util.report = function (obj) {
+	console.log('##########################')
+
+	for (key in obj) {
+		console.log(`${key}: ${obj[key]}`)
+	}
+
+	console.log('##########################')
 }
 
 module.exports = util;

@@ -1,9 +1,12 @@
 {
-  "name": "mml-cli",
+  "name": "mml",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "bin": {
+    "mml": "index.js"
   },
   "author": "Stanley Lau <stanley@mmldigi.com>",
   "license": "ISC",

@@ -186,7 +186,29 @@
             "adminUser": "mmldigi",
             "adminPass": "nTBhVgrCsCaYo4qr",
             "adminEmail": "stanley@mmldigi.com"
+        },
+        {
+            "dbname": "test",
+            "url": "http://test.mml.local",
+            "dbuser": "root",
+            "dbpass": "root",
+            "dbprefix": "wp_",
+            "title": "Mml digital marketing",
+            "adminUser": "mmldigi",
+            "adminPass": "D14exWirbXal1ttK",
+            "adminEmail": "stanley@mmldigi.com"
+        },
+        {
+            "dbname": "test",
+            "url": "http://test.mml.local",
+            "dbuser": "root",
+            "dbpass": "root",
+            "dbprefix": "wp_",
+            "title": "Mml digital marketing",
+            "adminUser": "mmldigi",
+            "adminPass": "K3KsUM0zetHjRhfn",
+            "adminEmail": "stanley@mmldigi.com"
         }
     ],
-    "currentProxyPort": 8014
+    "currentProxyPort": 8015
 }

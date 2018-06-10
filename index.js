@@ -1,20 +1,10 @@
 #!/usr/bin/env node
 
-const program = require('commander');
-const prompt = require('prompt');
-const setup = require('./module/setup.js')
-const plugins = require('./module/plugins.js')
-const util = require('./module/util.js')
-
-
-
-// setup.installWordpress('path', {
-// 	dbname: 'test',
-// 	url: 'tst.com',
-// 	adminPass : util.generateRanomPasword()
-// })
-
-
+var program = require('commander');
+var prompt = require('prompt');
+var setup = require('./module/setup.js')
+var plugins = require('./module/plugins.js')
+var util = require('./module/util.js')
 
 
 function initProject() {
@@ -54,27 +44,75 @@ function initProject() {
 	}
 	prompt.start();
 	prompt.get(schema, function (err, result) {
-	    
-	    //Log the results.
-	   const currentWorkingDir = process.cwd()
-	   const configObj = Object.assign({}, result, { adminUser: 'mmldigi', adminPass: util.generateRanomPasword() }); 
-	   
-	   const isWordpressInstalledSuccess = setup.installWordpress(currentWorkingDir, configObj)
-	   console.log('Wodrpess install successfully, now install betheme')
+
+		 // Install Wordpress
+	   var currentWorkingDir = process.cwd()
+	   var configObj = Object.assign({}, result, { adminUser: 'mmldigi', adminPass: util.generateRanomPasword() }); 
+		 var isWordpressInstalledSuccess = setup.installWordpress(currentWorkingDir, configObj)
+		 if (isWordpressInstalledSuccess === false) return;
+
+		 // Install themes
 	   setup.installBetheme(util.getThemePath())
 	   setup.installMelement(util.getThemePath(), {
 	   	proxyUrl: configObj.url,
 	   	proxyPort: util.readObjFromDb().currentProxyPort
 	   })
 
-	   console.log(`port...${util.readObjFromDb().currentProxyPort}`)
-
-	   //update database port
-	   const db = util.readObjFromDb()
+	   // Update database port
+	   var db = util.readObjFromDb()
 	   db.currentProxyPort++
-	   util.writeObjToDb(db)
+		 util.writeObjToDb(db)
+		 
+		 // Report install information
+		 util.report(configObj)
 	 });
 
 }
 
-initProject()
+function installPlugin() {
+	if (util.checkExistOfWpConfigFile() == false) return console.log('Can\'t detect Wordpress in current directory')
+	var allPlugins = plugins.viewAllPlugs()
+	console.log('Please select a plugin you want to install')
+	for(key in allPlugins) {
+		console.log(`${key}: ${allPlugins[key]}`)
+	}
+	console.log("q: Exit the program")
+
+	var schema = {
+		properties: {
+		  plugin: {
+		    message: 'Enter the number',
+				default: 'q', 
+		  }
+		}
+	}
+
+	prompt.start();
+	prompt.get(schema, function (err, result) {
+		if(result.plugin != 'q' && typeof(allPlugins[result.plugin]) != 'undefined') {
+			plugins.installPlugin(allPlugins[result.plugin])
+		}
+	})
+}
+
+program
+	.version('0.0.1')
+	.usage('[Command]');
+
+program
+	.command('init')
+	.description('Initialise a new wordpress project')
+  .action(function(env, options){
+    initProject()
+  });
+
+program
+  .command('plugin')
+  .description('Select a wordpress plugin and install')
+  .action(function(cmd, options){
+    installPlugin()
+  });
+
+program.parse(process.argv);
+
+if(process.argv.length == 2) program.help()
