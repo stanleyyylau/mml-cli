@@ -12,7 +12,7 @@ function initProject() {
 	var schema = {
 		properties: {
 		  dbname: {
-		    message: 'Please enter database name, you must create databse with lnmp first',
+		    message: 'Please enter database name, you must create database with lnmp first',
 		    required: true
 		  },
 		  url: {
