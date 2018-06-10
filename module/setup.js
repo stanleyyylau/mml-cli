@@ -42,7 +42,7 @@ setup.installWordpress = function(targetPath, obj) {
 		adminPass : obj.adminPass || 'mmldigi',
 		adminEmail : obj.adminEmail || 'stanley@mmldigi.com'
 	}
-	var theCommandToInstallWordpress = `wp core download && wp core config --dbname=${config.dbname} --dbuser=${config.dbuser} --dbpass=${config.dbpass} --dbprefix=${config.dbprefix} && wp core install --url=${config.url} --title="${config.title}" --admin_user=${config.adminUser} --admin_password=${config.adminPass} --admin_email=${config.adminEmail}`;
+	var theCommandToInstallWordpress = `wp core download --allow-root && wp core config --dbname=${config.dbname} --dbuser=${config.dbuser} --dbpass=${config.dbpass} --dbprefix=${config.dbprefix} --allow-root && wp core install --url=${config.url} --title="${config.title}" --admin_user=${config.adminUser} --admin_password=${config.adminPass} --admin_email=${config.adminEmail} --allow-root`;
 	
 	// Run external tool synchronously
 	if (shell.exec(theCommandToInstallWordpress).code !== 0) {
